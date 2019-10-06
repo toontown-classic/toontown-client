@@ -21,4 +21,4 @@ wreg.SetValueEx(key, 'GAME2_DONE', 0, wreg.REG_DWORD, 1)
 wreg.SetValueEx(key, 'INSTALL_DIR', 0, wreg.REG_SZ, "C:\Program Files\Disney\Disney Online\Toontown")
 #print wreg.QueryValueEx(key, 'PROXY_SERVER')
 
-os.system('Toontown.exe null http://127.0.0.1/toontown http://127.0.0.1/ http://127.0.0.1/ 0 "-OGL -windowed -allow_hw_midi -show_fps"')
+os.system('Toontown.exe null http://dl.toontownserver.com/toontown http://67.205.181.57 http://dl.toontownserver.com 0 "-OGL -windowed -allow_hw_midi -show_fps"')
