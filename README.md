@@ -4,9 +4,9 @@ Toontown 2003 client repository for startup files and the original game installe
 
 # Running on Mac OS
 
-You will need to run the Toontown_MacOS executable provided in this repository,
+You will need to run the Toontown-MacOS executable provided in this repository,
 this executable is modified in a way where it will run with wine on MacOS.
-Drag the Toontown_MacOS.exe file from this repo to your Toontown installation folder after installing Toontown from the original 2003 executable, Then edit the start.py file and replace the following line:
+Drag the Toontown-MacOS.exe file from this repo to your Toontown installation folder after installing Toontown from the original 2003 executable, Then edit the start.py file and replace the following line:
 
 ## Before
 
@@ -17,7 +17,7 @@ os.system('Toontown.exe null http://127.0.0.1/toontown http://127.0.0.1 http://1
 ## After
 
 ```python
-os.system('Toontown_MacOS.exe null http://127.0.0.1/toontown http://127.0.0.1 http://127.0.0.1 0 "-OGL -windowed -allow_hw_midi -show_fps"')
+os.system('Toontown-MacOS.exe null http://127.0.0.1/toontown http://127.0.0.1 http://127.0.0.1 0 "-OGL -windowed -allow_hw_midi -show_fps"')
 ```
 
 Finally to launch the game, open a new terminal window and cd into the
